@@ -31,6 +31,8 @@ font & reset css
 reset
 --------------------------------------------- 
 */
+
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
@@ -39,6 +41,33 @@ figure, header, nav, section, article, aside, footer, figcaption {
   padding: 0;
   border: 0;
   outline: 0;
+}
+
+.container-about-us {
+  display: flex;
+  gap: 40px;
+  text-align: center;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+.card .material-symbols-outlined {
+  font-size: 48px;
+  color: #007BFF;
+  margin-bottom: 15px;
+}
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+.card p {
+  font-size: 14px;
+  color: #666;
 }
 
 .clearfix:after {
@@ -183,7 +212,7 @@ body {
 }
 
 .icon-button a:hover {
-  color: #f35525;
+  color: #a87c60;
 }
 
 .icon-button a:hover i {
@@ -204,7 +233,7 @@ body {
 }
 
 .main-button a:hover {
-  background-color: #f35525;
+  background-color: #a87c60;
   color: #fff;
 }
 
@@ -348,7 +377,7 @@ Header Style
 }
 
 .sub-header ul.social-links li a:hover {
-  background-color: #f35525;
+  background-color: #a87c60;
 }
 
 .sub-header ul.info li {
@@ -494,16 +523,16 @@ Header Style
 }
 
 .header-area .main-nav .nav li:hover a {
-  color: #f35525;
+  color: #a87c60;
 }
 
 .header-area .main-nav .nav li a.active {
-  color: #f35525;
+  color: #a87c60;
 }
 
 
 .background-header .main-nav .nav li a.active {
-  color: #f35525;
+  color: #a87c60;
 }
 
 .header-area .main-nav .menu-trigger {
